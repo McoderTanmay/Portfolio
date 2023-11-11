@@ -1,0 +1,41 @@
+.projects {
+    width: 60vw;
+    margin: auto;
+    margin-top: 5em;
+    border-radius: 19px;
+    background: #fff;
+}
+.box{
+    display: flex;
+    margin: 1em;
+}
+.card{
+    width: 280px !important;
+    height: 340px !important;
+    margin:1em ;
+    padding: 1em;
+    border: none !important;
+}
+.card_img{
+    width: 250px !important;
+    height: 250px !important;
+    transition: transform .2s !important;
+}
+.card_img:hover{
+    transform: scale(1.15);
+}
+.upperText{
+    padding-top: 2em;
+    margin-left: 3em;
+}
+.upperText>p{
+    display: flex;
+    font-size: 20px;
+}
+.line
+{
+    width: 45px;
+    height: 5px;
+    border-radius: 4px;
+    background: #6f13ca;
+}

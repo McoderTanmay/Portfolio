@@ -1,0 +1,17 @@
+.navclass {
+  height: 70px !important;
+  flex-shrink: 0 !important;
+  border-radius: 0px 0px 30px 30px !important;
+  background: rgb(217 217 217 / 24%) !important;
+  mix-blend-mode: hard-light !important;
+  backdrop-filter: blur(2px) !important;
+}
+.navbar-collapse >ul>li>a{
+  color: white !important;
+  font-size: 20px
+}
+.container-fluid>a{
+  color: white !important;
+  padding-right: 23em !important;
+  font-size: 20px
+}
