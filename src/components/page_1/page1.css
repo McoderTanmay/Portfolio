@@ -1,5 +1,6 @@
 .page1 {
-  height: 100vh !important;
+  padding-top: 10vh;
+  height: fit-content !important;
   background-color: black !important;
   background: radial-gradient(
     65.6% 65.6% at 50% 52.81%,
@@ -7,10 +8,9 @@
     rgba(155, 32, 186, 0) 100%
   );
 }
-.img {
-  position: absolute;
-  top: 248px;
-  right: 563px;
+.img{
+  padding-bottom: 2em;
+  padding-top: 2em;
 }
 .name {
   display: flex;

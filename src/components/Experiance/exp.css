@@ -1,9 +1,8 @@
 .exp{
-    width: 100vw;
+    width: auto;
     height: 100vh;
     margin: auto;
     margin-top: 20vh;
-    margin-bottom: 20vh;
     padding-top: 20vh;
-    background-color: #6f13ca;
+    background-color: #450585;
 }

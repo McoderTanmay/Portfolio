@@ -3,11 +3,11 @@ import "./page1.css";
 import Typewriter from "typewriter-effect";
 import myImage from "./port-removebg-preview (1) 1.png";
 
-const Page1 = () => {
+const Page1 = (scroll) => {
   return (
     <>
       <div className="page1">
-        <Nav></Nav>
+        <Nav scroll={scroll.onScroll}></Nav>
         <div className="name">
           <p className="upper">Hello there i'm</p>
           <p className="middle">Tanmay Sontakke </p>

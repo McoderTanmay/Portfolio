@@ -1,0 +1,117 @@
+.outer{
+    background-color: #450585;
+    height: fit-content;
+}
+.inner{
+    /* background-color:rgba(255, 255, 255, 0.381); */
+    background-image: linear-gradient(135deg,#6512b9, #ba95de);
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top-right-radius:4em;
+    border-top-left-radius:4em;
+}
+.inner >h3{
+    font-size: 26px;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.inner p{
+    font-size:16px;
+}
+.contact{
+    display: flex;
+    margin-bottom: 3em;
+}
+.left{
+    width: 50%;
+    /* padding-left:100px ; */
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right-form{
+    padding: 1.7em;
+    width: fit-content !important;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white !important;
+    background-image: linear-gradient(135deg,#aa76dd,#6f13ca) !important;
+}
+
+.textArea-massgae{
+    border-radius: 9px;
+}
+.left > p{
+    text-align: left;
+    /* font-size: large; */
+    color: rgb(203, 203, 203);
+}
+.left > h4{
+    text-align: left;
+    color: white;
+}
+.phone-box{
+    width: fit-content;
+    height: fit-content;
+    padding: 8px;
+    color: white;
+    /* background: rgba(255, 255, 255, 0.421); */
+    background-image: linear-gradient(135deg,#aa76dd,#6f13ca);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.outer-box{
+    margin-bottom: 2em;
+    display: flex;
+
+}
+.icon-text > p{
+    color:white;
+}
+.icon-text{
+    margin-left:2em ;
+}
+.email-drop{
+    width: 40vh;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.395);
+}
+.footer{
+    display: flex;
+    padding-top: 1em;
+    flex-direction: row;
+    color: white;
+    font-size: 18px;
+}
+.social-media{
+    width: 86%;
+    text-align: right;
+}
+@media(max-width:1000px){
+    .contact{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        /* padding-left:100px ; */
+    }
+    .right{
+        width: 100%;
+        padding-top: 2em;
+        justify-content: center;
+    }
+    .inner{
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
