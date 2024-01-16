@@ -5,6 +5,9 @@
     padding-top: 10vh;
     background-color: #450585;
 }
+.exp>h2{
+    color: white;
+}
 .cards-cover{
     display: flex;
     width: fit-content;

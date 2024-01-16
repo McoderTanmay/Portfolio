@@ -21,7 +21,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="card" style={myStyles}>
-          <img src={thinningImg} class="card-img-top card_img" alt="..." />
+          <a href="https://github.com/McoderTanmay/ChatApp"><img src={thinningImg} class="card-img-top card_img" alt="..." /></a>
           <div class="card-body">
             <p class="card-text">Real-time chat app</p>
           </div>

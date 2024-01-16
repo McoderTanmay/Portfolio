@@ -16,6 +16,7 @@ const Exp = () => {
   return (
     <>
       <div className="exp">
+        <h2>Experience</h2>
         {/* <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           <SwiperSlide>
             <div className="compImg"><img src={famark} alt="Famark" /></div>
