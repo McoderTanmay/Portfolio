@@ -6,9 +6,22 @@
   /* backdrop-filter: blur(4px) !important; */
   transition: 0.8s;
 }
-.side-nav{
+.side-nav {
   background-color: #450585 !important;
+  
+}
+.side-nav a{
+  color: white !important;
+  font-size: 16px !important;
 }
 .nav-font{
   color: black !important;
+}
+.nav-btn span{
+  color: aqua !important;
+}
+.hire-me{
+  background: #7d12e9 !important;
+  border: #7d12e9 !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

@@ -1,6 +1,6 @@
 import "./projects.css";
 import login from "./images/istockphoto-656747800-612x612.jpg";
-import thinningImg from './images/15809217983113387.png';
+import thinningImg from './images/Chat-User.png';
 
 const Projects = () => {
   const myStyles = {
@@ -23,7 +23,7 @@ const Projects = () => {
         <div class="card" style={myStyles}>
           <img src={thinningImg} class="card-img-top card_img" alt="..." />
           <div class="card-body">
-            <p class="card-text">zhen-suan thinning algorithem</p>
+            <p class="card-text">Real-time chat app</p>
           </div>
         </div>
       </div>

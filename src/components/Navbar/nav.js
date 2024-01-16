@@ -3,13 +3,13 @@ import "./Nav.css";
 const Nav = (onScroll) => {
   return (
     <>
-        <nav className={`navbar navbar-dark bg-dark fixed-top nav-class ${onScroll.scroll ? 'scroll-down':'nav-class'}`}>
+        <nav className={`navbar bg-dark fixed-top nav-class ${onScroll.scroll ? 'scroll-down navbar-light':'nav-class navbar-dark'}`}>
         <div className="container-fluid">
           <a className={`navbar-brand ${onScroll.scroll ?'nav-font':''}`} href="#">
             Tanmay
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler nav-btn"
             type="button"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasDarkNavbar"
@@ -26,7 +26,7 @@ const Nav = (onScroll) => {
           >
             <div className="offcanvas-header side-nav">
               <h5 className="offcanvas-title" id="offcanvasDarkNavbarLabel">
-                Dark offcanvas
+                Nav
               </h5>
               <button
                 type="button"
@@ -38,27 +38,19 @@ const Nav = (onScroll) => {
             <div className="offcanvas-body side-nav">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="https://docs.google.com/document/d/1kDEq2SEA6h-xyVuVVN2VFIdSGBpgxQugixq-BxekAFI/edit?usp=sharing">
                     Resume
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Link
+                  <a className="nav-link active" href="https://leetcode.com/tanmaysontakke99/">
+                    Leetcode Profile
                   </a>
                 </li>
+                <li className="nav-item pt-1">
+                  <button className="btn btn-primary hire-me">Hire me</button>
+                </li>
               </ul>
-              <form className="d-flex mt-3" role="search">
-                <input
-                  className="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button className="btn btn-success" type="submit">
-                  Search
-                </button>
-              </form>
             </div>
           </div>
         </div>

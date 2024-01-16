@@ -14,10 +14,10 @@ function Contact() {
           <h3>CONTACT</h3>
           <div className="contact">
             <div className="left">
-              <h4>Drop me a Massage</h4>
+              <h4>Drop me a Messege</h4>
               <p>
                 if you like my work and want to hire me you can drop me a
-                Massage{" "}
+                Messege{" "}
               </p>
               <div className="outer-box">
                 <div className="phone-box">
@@ -71,7 +71,7 @@ function Contact() {
                     id="massage"
                     cols="34"
                     rows="4"
-                    placeholder="Massage"
+                    placeholder="Messege"
                   ></textarea>
                 </div>
                 <button type="submit" className="btn btn-primary">
@@ -84,14 +84,14 @@ function Contact() {
           <div className="footer">
             <p>Tanmay Sontakke</p>
             <div className="social-media">
-              <a href="">
+              <a href="https://www.instagram.com/tanmay_sontakke_99?igsh=MWM3a3dqNnE0N2wzdw==">
                 <LuInstagram size={"35px"} />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/tanmay-sontakke-3b99b4228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <FaLinkedin size={"35px"} />
               </a>
-              <a href="">
-                <FaGithub size={"35px"} />
+              <a href="https://github.com/McoderTanmay">
+                <FaGithub size={"35px"} color="black"/>
               </a>
             </div>
           </div>

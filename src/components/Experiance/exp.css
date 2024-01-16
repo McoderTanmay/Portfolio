@@ -1,8 +1,75 @@
 .exp{
     width: auto;
-    height: 100vh;
-    margin: auto;
+    height: fit-content;
     margin-top: 20vh;
-    padding-top: 20vh;
+    padding-top: 10vh;
     background-color: #450585;
+}
+.cards-cover{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+.exp-card:hover{
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+}
+.exp-card{
+    height: 650px !important;
+    width: 20rem !important;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 12px !important;
+}
+.company{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 171, 0);
+    border-top-right-radius:12px;
+    border-top-left-radius:12px;
+    color: white;
+}
+.Lcompany{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 33, 1);
+    border-top-right-radius:12px;
+    border-top-left-radius:12px;
+    color: white;
+}
+
+.company-logo{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem #0000004d;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 8rem;
+}
+.Lcompany-logo{
+    background: white;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem #0000004d;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 8rem;
+}
+@media(max-width:700px){
+    .cards-cover{
+        flex-direction: column !important;
+    }
 }

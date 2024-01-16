@@ -96,6 +96,9 @@
     width: 86%;
     text-align: right;
 }
+.social-media a{
+    padding: 5px;
+}
 @media(max-width:1000px){
     .contact{
         flex-direction: column;
